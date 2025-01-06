@@ -1,0 +1,203 @@
+/* Progress-specific styles for CPSPE Course Platform */
+
+/* Progress Dashboard */
+.progress-section {
+    padding: var(--spacing-xl) 0;
+}
+
+.progress-dashboard {
+    background-color: white;
+    border-radius: var(--border-radius-lg);
+    padding: var(--spacing-xl);
+    box-shadow: var(--shadow-md);
+}
+
+/* Overall Stats */
+.overall-stats {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: var(--spacing-lg);
+    margin-bottom: var(--spacing-xl);
+}
+
+.stat-card {
+    background-color: var(--background-color);
+    border-radius: var(--border-radius-md);
+    padding: var(--spacing-lg);
+    text-align: center;
+}
+
+.stat-card h3 {
+    color: var(--light-text);
+    font-size: 1rem;
+    margin-bottom: var(--spacing-md);
+}
+
+#completedModules,
+#activeStreak {
+    font-size: 2rem;
+    font-weight: 700;
+    color: var(--primary-color);
+}
+
+/* Module Progress Bars */
+.module-progress {
+    display: grid;
+    gap: var(--spacing-lg);
+}
+
+.progress-item {
+    display: grid;
+    grid-template-columns: 200px 1fr auto;
+    align-items: center;
+    gap: var(--spacing-lg);
+}
+
+.progress-label {
+    font-weight: 500;
+}
+
+.progress-track {
+    height: 8px;
+    background-color: var(--border-color);
+    border-radius: var(--border-radius-sm);
+    overflow: hidden;
+}
+
+.progress-fill {
+    height: 100%;
+    background-color: var(--success-color);
+    transition: width 0.3s ease;
+}
+
+.progress-percentage {
+    font-weight: 600;
+    color: var(--success-color);
+}
+
+/* Progress Indicators */
+.progress-indicator {
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-xs);
+}
+
+.indicator-dot {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: var(--border-color);
+}
+
+.indicator-dot.completed {
+    background-color: var(--success-color);
+}
+
+.indicator-dot.current {
+    background-color: var(--primary-color);
+}
+
+/* Achievement Badges */
+.achievements {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    gap: var(--spacing-lg);
+    margin-top: var(--spacing-xl);
+}
+
+.achievement-badge {
+    text-align: center;
+    padding: var(--spacing-md);
+}
+
+.badge-icon {
+    width: 60px;
+    height: 60px;
+    margin: 0 auto var(--spacing-sm);
+    background-color: var(--background-color);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+}
+
+.badge-icon.locked {
+    opacity: 0.5;
+}
+
+.badge-name {
+    font-size: 0.875rem;
+    font-weight: 500;
+    margin-bottom: var(--spacing-xs);
+}
+
+.badge-description {
+    font-size: 0.75rem;
+    color: var(--light-text);
+}
+
+/* Progress Charts */
+.progress-charts {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: var(--spacing-xl);
+    margin-top: var(--spacing-xl);
+}
+
+.chart-container {
+    background-color: white;
+    border-radius: var(--border-radius-md);
+    padding: var(--spacing-lg);
+    box-shadow: var(--shadow-sm);
+}
+
+.chart-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: var(--spacing-lg);
+}
+
+.chart-title {
+    font-weight: 600;
+}
+
+.chart-legend {
+    display: flex;
+    gap: var(--spacing-md);
+}
+
+.legend-item {
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-xs);
+    font-size: 0.875rem;
+    color: var(--light-text);
+}
+
+.legend-color {
+    width: 12px;
+    height: 12px;
+    border-radius: 2px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .progress-item {
+        grid-template-columns: 1fr;
+        gap: var(--spacing-sm);
+    }
+
+    .overall-stats {
+        grid-template-columns: 1fr;
+    }
+
+    .achievements {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .progress-charts {
+        grid-template-columns: 1fr;
+    }
+} 

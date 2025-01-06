@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CPSPE Certification Course</title>
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/modules.css">
+    <link rel="stylesheet" href="styles/progress.css">
+</head>
+<body>
+    <nav class="main-nav">
+        <div class="nav-logo">CPSPE</div>
+        <div class="nav-links">
+            <a href="#modules">Modules</a>
+            <a href="#progress">Progress</a>
+            <a href="#resources">Resources</a>
+            <div id="userProgress" class="progress-indicator"></div>
+        </div>
+        <div class="user-menu">
+            <span id="userName">User</span>
+            <div class="progress-circle" id="overallProgress">0%</div>
+        </div>
+    </nav>
+
+    <main>
+        <section id="welcome" class="hero-section">
+            <h1>Contextual Problem-Solving Prompt Engineering</h1>
+            <p>Master the art and science of context-aware prompt engineering</p>
+            <button class="cta-button" onclick="startCourse()">Begin Your Journey</button>
+        </section>
+
+        <section id="modules" class="modules-grid">
+            <h2>Course Modules</h2>
+            <div class="module-cards">
+                <!-- Module cards will be dynamically generated -->
+            </div>
+        </section>
+
+        <section id="progress" class="progress-section">
+            <h2>Your Progress</h2>
+            <div class="progress-dashboard">
+                <div class="overall-stats">
+                    <div class="stat-card">
+                        <h3>Overall Progress</h3>
+                        <div class="progress-circle large" id="dashboardProgress">0%</div>
+                    </div>
+                    <div class="stat-card">
+                        <h3>Completed Modules</h3>
+                        <div id="completedModules">0/8</div>
+                    </div>
+                    <div class="stat-card">
+                        <h3>Active Streak</h3>
+                        <div id="activeStreak">0 days</div>
+                    </div>
+                </div>
+                <div class="module-progress">
+                    <!-- Module progress bars will be dynamically generated -->
+                </div>
+            </div>
+        </section>
+
+        <section id="active-module" class="module-content hidden">
+            <!-- Active module content will be dynamically loaded here -->
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>About CPSPE</h3>
+                <p>A comprehensive certification program for mastering contextual prompt engineering.</p>
+            </div>
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <a href="#modules">Modules</a>
+                <a href="#progress">Progress</a>
+                <a href="#resources">Resources</a>
+            </div>
+            <div class="footer-section">
+                <h3>Contact</h3>
+                <p>support@cpspe.com</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/courseData.js"></script>
+    <script src="js/progress.js"></script>
+    <script src="js/modules.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html> 
