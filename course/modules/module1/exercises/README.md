@@ -1,54 +1,82 @@
 # Module 1 Exercises: Foundations of Contextual Understanding
 
-## Exercise 1: Context Analysis
-### Objective
-Practice identifying and analyzing different types of context in prompt engineering scenarios.
+This directory contains practical exercises to help you master the fundamental concepts of CPSPE.
 
-### Instructions
-1. Review the provided scenarios
-2. Identify the different types of context present
-3. Analyze how each type of context affects the prompt engineering approach
-4. Document your findings and reasoning
+## Exercise 1: Context Identification
+**Duration: 30 minutes**
 
-### Scenarios
-[Detailed scenarios will be provided]
+Analyze the following scenarios and identify the key contextual elements that would influence your prompt engineering approach:
 
-## Exercise 2: Contextual Framework Application
-### Objective
-Apply the CPSPE framework to real-world prompt engineering challenges.
+1. A customer service chatbot for a global e-commerce platform
+2. A code documentation assistant for a development team
+3. A medical symptom analysis system
 
-### Instructions
-1. Study the given problems
-2. Apply the CPSPE framework step by step
-3. Document your approach and decisions
-4. Evaluate the effectiveness of your solutions
+For each scenario:
+- List all relevant contextual factors
+- Rank them by importance
+- Explain why each factor matters
+- Identify potential contextual conflicts
 
-### Problems
-[Detailed problems will be provided]
+## Exercise 2: Problem Decomposition
+**Duration: 45 minutes**
 
-## Exercise 3: Context Mapping
-### Objective
-Create comprehensive context maps for prompt engineering scenarios.
+Take a complex prompt engineering challenge and break it down using CPSPE principles:
 
-### Instructions
-1. Use provided mapping tools and templates
-2. Create detailed context maps for each scenario
-3. Identify relationships and dependencies
-4. Present and explain your maps
+Challenge: "Create a system that helps teachers generate personalized feedback for student essays"
 
-### Scenarios
-[Detailed scenarios will be provided]
+Tasks:
+1. Identify the main components of the problem
+2. Map out the relationships between components
+3. List the contextual considerations for each component
+4. Create a hierarchical breakdown of the solution approach
 
-## Assessment Criteria
-- Thoroughness of analysis
-- Application of CPSPE principles
-- Quality of documentation
-- Effectiveness of solutions
-- Critical thinking demonstrated
+## Exercise 3: Basic Prompt Crafting
+**Duration: 45 minutes**
+
+Practice creating context-aware prompts for the following situations:
+
+1. Summarizing technical documentation for different audience levels
+2. Translating content while preserving cultural context
+3. Generating code comments for different programming paradigms
+
+Requirements:
+- Write 3 different prompts for each situation
+- Explain how each prompt addresses specific contextual elements
+- Test the prompts and document the results
+- Iterate based on the outcomes
+
+## Exercise 4: Context Mapping
+**Duration: 1 hour**
+
+Create a comprehensive context map for a real-world prompt engineering challenge:
+
+1. Choose one of the provided case studies
+2. Use the context mapping template (see resources)
+3. Identify and document:
+   - Primary stakeholders
+   - Environmental factors
+   - Technical constraints
+   - Success criteria
+   - Potential risks
+4. Present your context map and explain your reasoning
 
 ## Submission Guidelines
-1. Complete all exercises in this module
-2. Document your work clearly
-3. Include explanations for your decisions
-4. Submit through the designated platform
-5. Be prepared to discuss your solutions 
+- Complete all exercises in order
+- Document your work using the provided templates
+- Include screenshots or examples where relevant
+- Submit your work through the course platform
+- Be prepared to discuss your solutions in the next session
+
+## Assessment Criteria
+- Thoroughness of context analysis
+- Quality of problem decomposition
+- Effectiveness of prompt crafting
+- Clarity of documentation
+- Demonstration of CPSPE principles
+
+## Additional Practice
+For more practice, try applying these exercises to:
+- Your own work projects
+- Different industry scenarios
+- Various AI model types
+- Different complexity levels 

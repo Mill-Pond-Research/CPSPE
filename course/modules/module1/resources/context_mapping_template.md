@@ -1,104 +1,125 @@
 # Context Mapping Template
 
-## Purpose
-This template helps you systematically analyze and document different types of context when developing prompts for LLMs.
+Use this template to create comprehensive context maps for CPSPE projects.
 
-## Template Structure
+## 1. Project Overview
+**Project Name:**
+**Objective:**
+**Scope:**
+**Target Completion:**
 
-### 1. Linguistic Context
-```
-Primary Language: [Specify]
-Technical Terms: [List key technical terms]
-Domain-Specific Language: [Note any specialized vocabulary]
-Tone Requirements: [Formal/Informal/Technical/etc.]
-```
+## 2. Stakeholder Analysis
+### Primary Stakeholders
+- [ ] Name/Role:
+  - Needs:
+  - Expectations:
+  - Constraints:
 
-### 2. Situational Context
-```
-Environment: [Physical/Digital/Hybrid]
-Time Constraints: [Immediate/Short-term/Long-term]
-Available Resources: [List key resources]
-Technical Limitations: [Note any constraints]
-```
+### Secondary Stakeholders
+- [ ] Name/Role:
+  - Influence:
+  - Interest:
+  - Requirements:
 
-### 3. Cultural Context
-```
-Target Audience: [Describe primary audience]
-Cultural Considerations: [List key cultural factors]
-Regional Specifics: [Note geographical considerations]
-Social Norms: [Document relevant social expectations]
-```
+## 3. Environmental Context
+### Technical Environment
+- [ ] Systems:
+- [ ] Platforms:
+- [ ] Tools:
+- [ ] Integration Points:
 
-### 4. Historical Context
-```
-Previous Attempts: [Document past approaches]
-Legacy Systems: [Note relevant existing systems]
-Historical Challenges: [List known issues]
-Success Patterns: [Document what has worked]
-```
+### Business Environment
+- [ ] Industry Factors:
+- [ ] Market Conditions:
+- [ ] Regulatory Requirements:
+- [ ] Competition:
 
-### 5. Personal Context
-```
-User Expertise: [Beginner/Intermediate/Expert]
-Special Requirements: [List specific needs]
-Preferences: [Note user preferences]
-Accessibility Needs: [Document requirements]
-```
+### Cultural Context
+- [ ] Language Considerations:
+- [ ] Cultural Norms:
+- [ ] Regional Differences:
+- [ ] Social Factors:
 
-## Example Usage
+## 4. Technical Requirements
+### Functional Requirements
+- [ ] Core Features:
+- [ ] Performance Metrics:
+- [ ] Integration Needs:
+- [ ] Scalability Requirements:
 
-### Project: Customer Service Chatbot
+### Non-Functional Requirements
+- [ ] Security:
+- [ ] Privacy:
+- [ ] Compliance:
+- [ ] Accessibility:
 
-#### 1. Linguistic Context
-```
-Primary Language: English (US)
-Technical Terms: API, endpoint, authentication
-Domain-Specific Language: Support tickets, escalation
-Tone Requirements: Professional but friendly
-```
+## 5. Constraints
+### Technical Constraints
+- [ ] Platform Limitations:
+- [ ] Performance Boundaries:
+- [ ] Integration Restrictions:
+- [ ] Resource Limitations:
 
-#### 2. Situational Context
-```
-Environment: Digital - Web Interface
-Time Constraints: Real-time responses needed
-Available Resources: Knowledge base, FAQ system
-Technical Limitations: Max 2-second response time
-```
+### Business Constraints
+- [ ] Budget:
+- [ ] Timeline:
+- [ ] Resource Availability:
+- [ ] Legal Requirements:
 
-[Continue with other sections...]
+## 6. Success Criteria
+### Quantitative Metrics
+- [ ] Performance Targets:
+- [ ] Usage Metrics:
+- [ ] Error Rates:
+- [ ] Response Times:
 
-## How to Use This Template
+### Qualitative Metrics
+- [ ] User Satisfaction:
+- [ ] Quality Standards:
+- [ ] Adoption Rates:
+- [ ] Feedback Metrics:
 
-1. **Initial Analysis**
-   - Fill out each section with known information
-   - Mark unknowns for further investigation
-   - Note any assumptions made
+## 7. Risk Assessment
+### Technical Risks
+- [ ] Risk:
+  - Impact:
+  - Probability:
+  - Mitigation:
 
-2. **Validation**
-   - Review with stakeholders
-   - Test assumptions
-   - Update based on feedback
+### Business Risks
+- [ ] Risk:
+  - Impact:
+  - Probability:
+  - Mitigation:
 
-3. **Implementation**
-   - Use completed template to guide prompt design
-   - Reference during development
-   - Update as new context emerges
+## 8. Dependencies
+### Internal Dependencies
+- [ ] System Dependencies:
+- [ ] Team Dependencies:
+- [ ] Resource Dependencies:
 
-4. **Review**
-   - Regularly review and update
-   - Document changes
-   - Track effectiveness
+### External Dependencies
+- [ ] Third-party Services:
+- [ ] External Systems:
+- [ ] Partner Dependencies:
 
-## Best Practices
+## 9. Timeline and Milestones
+### Key Dates
+- [ ] Start Date:
+- [ ] Major Milestones:
+- [ ] Review Points:
+- [ ] Completion Date:
 
-1. Be thorough in initial analysis
-2. Update regularly as context changes
-3. Validate assumptions with stakeholders
-4. Document sources of information
-5. Consider interdependencies between contexts
+## 10. Notes and Additional Considerations
+- Special requirements:
+- Assumptions:
+- Open questions:
+- Reference materials:
 
-## Notes
-- This template is a living document
-- Adapt sections as needed for your specific use case
-- Add additional categories if required
-- Remove irrelevant sections if necessary 
+## Instructions for Use
+1. Fill out each section thoroughly
+2. Mark completed items with [x]
+3. Add relevant details under each point
+4. Update regularly as context changes
+5. Share with stakeholders for validation
+6. Use for reference during implementation 
